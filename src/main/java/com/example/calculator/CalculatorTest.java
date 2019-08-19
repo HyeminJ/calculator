@@ -58,6 +58,8 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         double result = calc.multiply(10,4);
         assertEquals("두 곱셈의 값은 40이어야 합니다.", 40, result);
+        double result = calc.multiply(10,5);
+        assertEquals("두 곱셈의 값은 50이어야 합니다.", 50, result);
     }
 }
 
