@@ -52,5 +52,12 @@ public class CalculatorTest {
         double result = calc.divide(10,0);
         assertEquals(0, result);
     }
+
+    @Test
+    public void test_곱하기() {
+        Calculator calc = new Calculator();
+        double result = calc.multiply(10,3);
+        assertEquals(30, result);
+    }
 }
 
