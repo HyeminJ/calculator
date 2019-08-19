@@ -56,8 +56,8 @@ public class CalculatorTest {
     @Test
     public void test_곱하기() {
         Calculator calc = new Calculator();
-        double result = calc.multiply(10,3);
-        assertEquals("두 곱셈의 값은 30이어야 합니다.", 30, result);
+        double result = calc.multiply(10,4);
+        assertEquals("두 곱셈의 값은 40이어야 합니다.", 40, result);
     }
 }
 
